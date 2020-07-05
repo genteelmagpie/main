@@ -1,0 +1,167 @@
+/* CSS Document */
+
+/*HTML Elements*/
+
+body{
+    color: #E3E8F4;
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+ 
+h1{
+    margin: 70px auto 0 auto;  /* Maring takes circular values. That is from the top, right, bottom, left */
+    color:aliceblue;
+    font-size: 6rem;  /* 1 rem = 16px */
+    font-family: 'Sacramento', cursive;
+}
+h2{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 1.5;   
+    margin-bottom: 0px;
+}
+span{
+    color: cornsilk;
+    text-decoration: underline;
+}
+hr{
+    border:dotted #CDD1E7 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+a{
+    color: gainsboro;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 500px 20px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+/*Class Modifiers*/
+
+.top-container{
+    background-color: #27515E;
+    position: relative;
+    padding-top: 100px;
+}
+.profile{
+    padding-top: 50px;
+}
+.profile-photo{
+    width: 15%;
+    border-radius: 100%;
+}
+.intro{
+    width:45%;
+    margin: auto;
+    text-align: justify;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;     
+}
+
+.middle-container{
+    background-color: #52616b;
+    padding-bottom: 50px;
+/*    margin: 100px 0;*/
+
+} 
+.skill-row{
+    width: 50%;
+    margin: 70px auto;
+    text-align: left;
+    line-height: 1.8;
+}
+.novice-programmer{
+    width: 12%;
+    float: left;
+    margin-right: 20px;
+}
+.writer{
+    width: 9%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.bottom-container{
+    background-color: #27515E;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.btn {
+  background: #738a99;
+  background-image: -webkit-linear-gradient(top, #738a99, #234f6b);
+  background-image: -moz-linear-gradient(top, #738a99, #234f6b);
+  background-image: -ms-linear-gradient(top, #738a99, #234f6b);
+  background-image: -o-linear-gradient(top, #738a99, #234f6b);
+  background-image: linear-gradient(to bottom, #738a99, #234f6b);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #7f9bab;
+  background-image: -webkit-linear-gradient(top, #7f9bab, #829cad);
+  background-image: -moz-linear-gradient(top, #7f9bab, #829cad);
+  background-image: -ms-linear-gradient(top, #7f9bab, #829cad);
+  background-image: -o-linear-gradient(top, #7f9bab, #829cad);
+  background-image: linear-gradient(to bottom, #7f9bab, #829cad);
+  text-decoration: none;
+}
+
+.copyright{
+    color: gainsboro;
+    font-size: 0.85rem;
+    padding: 20px 0px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
